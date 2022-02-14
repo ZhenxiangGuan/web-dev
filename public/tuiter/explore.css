@@ -1,0 +1,173 @@
+body{
+  background: black;
+}
+
+.wd-fg-color-highlight{
+  color: rgb(29,161,242);
+}
+
+
+.wd-fg-color-link{
+  color: rgb(110,118,125);
+}
+
+.wd-rounded-corners-all-around {
+  height: 30px;
+  border-radius: 25px;
+  background: darkgrey;
+  color: white;
+  width: 100%;
+}
+
+.wd-fixed-borders{
+  border-width: thin;
+  border-style: solid ;
+  border-color: rgb(47,51,54);
+
+}
+
+.wd-margin-left-16 {
+  margin-left: 16px;
+  display: flex;
+}
+.wd-margin-right-12{
+  margin-right: 12px;
+}
+
+.wd-setting-icon {
+  height: 30px;
+  width: 30px;
+   }
+
+.wd-grid-row {
+  clear: both;
+}
+
+.wd-link-highlighted {
+  color: rgb(29,161,242);
+  border-bottom-color: rgb(29,161,242);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-width: 2px;
+  padding: 16px;
+  font-size: 15px;
+  width: 100%;
+  background: black
+}
+
+.wd-link-not-highlighted {
+  color: rgb(110,118,125);
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-width: 2px;
+  padding: 16px;
+  font-size: 15px;
+  width: 100%;
+  background: black
+}
+.wd-bg-color-black {
+  background: rgb(47, 51, 54);
+}
+
+.wd-flex-container {
+  display: flex;
+}
+.wd-topic-style{
+  color: rgb(110,118,125);
+  font-size: 13px;
+}
+
+.wd-second-style{
+  color: white;
+  font-size: 17px;
+  margin-top: 27px;
+  margin-left: -90px;
+}
+
+.wd-third-style{
+  color: rgb(110,118,125);
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: -57px;
+}
+
+.wd-4-style{
+  color: white;
+  font-size: 17px;
+  margin-top: 27px;
+  margin-left: -84px;
+}
+
+.wd-5-style{
+  color: rgb(110,118,125);
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: -72px;
+}
+
+.wd-container{
+  display:flex;
+  align-items: center;
+}
+.wd-left-item{
+  width:75%
+}
+.wd-right-item{
+  width: 25%;
+}
+.wd-right-element-image {
+  float: right;
+  margin-right: 16px;
+}
+
+.wd-nyts-down {
+  margin-top:10px ;
+  margin-left: -10px;
+}
+
+.wd-white-title {
+  color: white;
+  font-size: 13px;
+  margin-top: 15px;
+
+}
+.wd-verify-down {
+  margin-top:13px ;
+  margin-left: 10px;
+}
+
+.wd-time-word {
+  color: darkgray;
+  font-size: 11px;
+  margin-top: 17px ;
+  margin-left: 10px;
+}
+.wd-main-title{
+  color: white;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.wd-right-image{
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.wd-right-16{
+  margin-right: 16px;
+}
+
+.wd-type-d-name {
+  color: lightgray;
+  font-size: 14px;
+
+}
+.wd-sky-blue {
+  color: deepskyblue;
+  margin-top:10px;
+
+}
