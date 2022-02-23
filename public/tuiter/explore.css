@@ -169,5 +169,88 @@ body{
 .wd-sky-blue {
   color: deepskyblue;
   margin-top:10px;
+}
 
+.wd-btn-change {
+  margin-top: 12px;
+  width: 100%;
+
+}
+
+.wd-gear-color {
+  color: dodgerblue;
+}
+
+
+.wd-pn-style{
+  color: black;
+  font-size: 17px;
+}
+
+.wd-pt-style{
+  color: rgb(110,118,125);
+  font-size: 13px;
+}
+
+.wd-pp-style {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.wd-search-btn {
+  position: center;
+  margin-top: 0px;
+
+}
+
+.wd-no-border{
+  border-color: transparent;
+  border-width: 0px;
+  width: 90%;
+  outline:none;
+  margin-left: 10px;
+  flex:1
+}
+
+.wd-box {
+  width:100%;
+  height:100%;
+  padding-left:10px;
+  padding-top: 2px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wd-font-14 {
+  font-size: 14px;
+}
+.wd-font-13 {
+  font-size:13px;
+}
+
+.wd-lightgray-13{
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wd-width-new {
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.wd-more-position{
+  padding-left: 0px;
+}
+
+.wd-width-100{
+  width:100%
+}
+
+.wd-no-wrap{
+  white-space: nowrap;
 }

@@ -5,118 +5,328 @@
   <title>Explore</title>
   <link href="explore.css" rel="stylesheet"/>
   <script src="https://kit.fontawesome.com/4c3e5f3dce.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 
 <body>
-<div class = "wd-fixed-borders ">
-  <div class="wd-margin-left-16">
-  <input type="search" placeholder="Search Twitter" class="wd-rounded-corners-all-around"/>
-    <a href="explore-settings.html" class="wd-margin-left-16 wd-margin-right-12 ">
-      <i class="fa-solid fa-gear wd-sky-blue"></i>
-      </i>
-    </a>
-  </div>
-  <div class="wd-flex-container wd-black-bg">
-    <button class="wd-link-highlighted">For you</button>
-    <button class="wd-link-not-highlighted">Trending</button>
-    <button class="wd-link-not-highlighted">COVID-19</button>
-    <button class="wd-link-not-highlighted">News</button>
-    <button class="wd-link-not-highlighted">Sports</button>
-    <button class="wd-link-not-highlighted">Entertainment</button>
+<div class="container mt-3 mb-3">
+
+  <div class="row">
+    <div class="col-2 col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2">
+      <ul class="list-group">
+        <a href="#" class="list-group-item" >
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="list-group-item" >
+          <div class="d-xl-block d-none">
+          <i class=" fa-solid fa-house-chimney"></i> Home
+          </div>
+          <div class="d-xl-none">
+            <i class=" fa-solid fa-house-chimney"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item active" >
+          <div class="d-xl-block d-none">
+            <i class="fa-solid fa-hashtag"></i> Explore
+          </div>
+          <div class="d-xl-none">
+            <i class=" fa-solid fa-hashtag"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item" >
+
+          <div class="d-xl-block d-none">
+            <i class="fa-solid fa-bell"></i> Notification
+          </div>
+          <div class="d-xl-none">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item" >
+
+
+          <div class="d-xl-block d-none">
+            <i class="fa-solid fa-envelope"></i> Messages
+          </div>
+          <div class="d-xl-none">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item" >
+
+          <div class="d-xl-block d-none">
+            <i class="fa-solid fa-bookmark"></i> Bookmarks
+          </div>
+          <div class="d-xl-none">
+            <i class="fa-solid fa-bookmark"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item" >
+
+          <div class="d-xl-block d-none">
+            <i class="fa-solid fa-list"></i> Lists
+          </div>
+          <div class="d-xl-none">
+            <i class="fa-solid fa-list"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item" >
+
+
+          <div class="d-xl-block d-none">
+            <i class="fa-solid fa-user"></i> Profile
+          </div>
+          <div class="d-xl-none">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </a>
+
+        <a href="#" class="list-group-item" >
+
+
+          <div class="d-xl-block d-none ">
+            <span class="fa-stack fa-1x ">
+            <i class="fas fa-circle fa-stack-1x  "></i>
+            <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+          </span>More
+          </div>
+          <div class="d-xl-none">
+            <i class="fas fa-circle fa-stack-1x "></i>
+            <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+          </div>
+        </a>
+
+      </ul>
+      <button type= "button" class="btn btn-primary wd-btn-change rounded-pill ">
+        Tweet
+      </button>
+
+    </div>
+
+
+    <div class ="col-6 col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10">
+      <div class="row">
+
+        <div class="col-11">
+          <div class="wd-box rounded-pill">
+          <div class="form-group ">
+
+              <i class="fa fa-search"></i>
+            <input type="text" class = "wd-no-border " placeholder="Search Twitter">
+          </div>
+          </div>
+        </div>
+        <div class = "col-1">
+          <i class="fa-solid fa-gear fa-2x wd-gear-color"></i>
+        </div>
+      </div>
+
+      <div class="mt-3">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="for-you.html">For you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="trending.html">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sports.html">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="entertainment.html">Entertainment</a>
+        </li>
+      </ul>
+      </div>
+      <div class="mt-3 align-content-center">
+        <img src="nasa.jpg" width="100%">
+      </div>
+
+
+
+      <ul class="list-group">
+
+        <li class="list-group-item" >
+          <div class="row align-items-center">
+            <div class="col-md-10 ">
+              <span class="wd-topic-style mt-0">Web Development</span><br/>
+              <b class="wd-font-14">ReactJS</b> <i class="fa-solid fa-circle-check"></i>
+              <span class="wd-pt-style"> - 2h </span><br/>
+              <b class="wd-font-13">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</b>
+            </div>
+            <div class="col-md-2">
+              <img src="rjs.jpg" class="wd-pp-style">
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item " >
+          <div class="row align-items-center">
+            <div class="col-md-10 ">
+              <b class="wd-font-14">JavaScript</b> <i class="fa-solid fa-circle-check"></i>
+              <span class="wd-pt-style"> - 2h </span><br/>
+              <b class="wd-font-13"> JavaScript is programming language that can run on browsers as well as desktops</b><br/>
+              <span class="wd-pt-style mt-0">123k Tweets</span>
+            </div>
+            <div class="col-md-2">
+              <img src="jsi.jpg" class="wd-pp-style">
+            </div>
+          </div>
+        </li>
+
+        <li class="list-group-item">
+        <div class="row align-items-center">
+          <div class="col-md-10 ">
+            <span class="wd-topic-style mt-0">Web Development</span><br/>
+              <b>JQuery</b> <br/>
+              <span class="wd-pt-style mt-0">123k Tweets</span>
+          </div>
+          <div class="col-md-2">
+            <img src="jq.jpg" class="wd-pp-style">
+          </div>
+        </div>
+        </li>
+
+        <li class="list-group-item">
+          <div class="row align-items-center">
+            <div class="col-md-10 ">
+              <span class="wd-topic-style mt-0">Web Development</span><br/>
+              <b>NodeJS</b> <i class="fa-solid fa-circle-check"></i>
+              <span class="wd-pt-style"> - 2h </span>
+              <br/>
+              <span class="wd-pt-style mt-0">123k Tweets</span>
+            </div>
+            <div class="col-md-2">
+              <img src="js.jpg" class="wd-pp-style">
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+
+
+
+    <div class = "col-4 col-xxl-4 col-xl-4 col-lg-4 d-lg-block d-none " >
+      <ul class="list-group">
+        <li class="list-group-item" >
+         <b> Who to follow</b>
+        </li>
+
+
+
+        <li  class="list-group-item" >
+          <div class="row">
+            <div class="col-md-2">
+              <img src="java.jpg" alt="avatar" class=" wd-width-new">
+            </div>
+            <div class="col-md-7">
+              <b class="wd-font-14">Java </b><i class="fa-solid fa-circle-check"></i><br/>
+              <p class="wd-lightgray-13">@Java</p>
+            </div>
+            <div class="col-md-3">
+              <button type= "button" class="btn btn-primary rounded-pill wd-btn-change">
+                Follow
+              </button>
+            </div>
+          </div>
+        </li>
+
+
+        <li  class="list-group-item" >
+          <div class="row">
+            <div class="col-md-2">
+              <img src="r.jpg" alt="avatar" class=" wd-width-new">
+            </div>
+            <div class="col-md-7">
+              <b class="wd-font-14">Relativity Space </b><i class="fa-solid fa-circle-check"></i><br/>
+              <p class="wd-lightgray-13">@relativityspace</p>
+            </div>
+            <div class="col-md-3">
+              <button type= "button" class="btn btn-primary rounded-pill wd-btn-change">
+                Follow
+              </button>
+            </div>
+          </div>
+        </li>
+
+
+        <li  class="list-group-item" >
+          <div class="row">
+            <div class="col-md-2">
+              <img src="v.jpg" alt="avatar" class=" wd-width-new">
+            </div>
+            <div class="col-md-7">
+              <b class="wd-font-14">Virgin Galactic </b><i class="fa-solid fa-circle-check"></i><br/>
+              <p class="wd-lightgray-13">@virgingalactic</p>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+              <button type= "button" class="btn btn-primary rounded-pill wd-btn-change">
+                Follow
+              </button>
+            </div>
+            </div>
+          </div>
+        </li>
+
+
+        <li  class="list-group-item" >
+          <div class="row">
+            <div class="col-md-2">
+              <img src="n.jpg" alt="avatar" class=" wd-width-new">
+            </div>
+            <div class="col-md-7">
+              <b class="wd-font-14">Nasa </b><i class="fa-solid fa-circle-check"></i><br/>
+              <p class="wd-lightgray-13">@nasa</p>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <button type= "button" class="btn btn-primary rounded-pill wd-btn-change">
+                  Follow
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li  class="list-group-item" >
+          <div class="row">
+            <div class="col-md-2">
+              <img src="t.jpg" alt="avatar" class=" wd-width-new">
+            </div>
+            <div class="col-md-7">
+              <b class="wd-font-14">Tesla </b><i class="fa-solid fa-circle-check"></i><br/>
+              <p class="wd-lightgray-13">@Tesla</p>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <button type= "button" class="btn btn-primary rounded-pill wd-btn-change ">
+                  Follow
+                </button>
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+      </ul>
+
+    </div>
 
   </div>
+
 </div>
 
-<div class="wd-fixed-borders">
-  <div class = "wd-margin-left-16 ">
-    <p class="wd-topic-style">Trending Science</p> <br>
-    <p class="wd-second-style">Starship</p>
-    <p class="wd-third-style">55.5k Tweets</p>
-  </div>
-</div>
-
-<div class="wd-fixed-borders">
-  <div class = "wd-margin-left-16 ">
-    <p class="wd-topic-style">Sports Trending</p> <br>
-    <p class="wd-4-style">Joe Rogan</p>
-    <p class="wd-5-style">5,218 Tweets</p>
-  </div>
-</div>
-
-<div class="wd-fixed-borders">
-  <div class = "wd-margin-left-16 wd-container">
-    <div class="wd-left-item">
-      <div class = "wd-flex-container">
-        <img src="nyts.jpg" width="25" height="25" class="wd-nyts-down">
-        <p class="wd-white-title">The New York Times</p>
-        <img src="verify.jpg" width="20" height="20" class="wd-verify-down">
-        <p class="wd-time-word"> · Yesterday</p>
-      </div>
-      <div class="wd-flex-container">
-        <p class="wd-main-title">Rapid Inflation Stokes Unease From Wall Street to Washington</p>
-      </div>
-    </div>
-    <div class="wd-right-item"></div>
-    <div class="wd-right-element-image wd-right-16" >
-      <img src="inflation.jpg" class="wd-right-image">
-    </div>
-
-  </div>
-</div>
-
-<div class="wd-fixed-borders">
-  <div class = "wd-margin-left-16 wd-container">
-    <div class="wd-left-item">
-      <div class = "wd-flex-container">
-        <img src="cnn.jpg" width="25" height="25" class="wd-nyts-down">
-        <p class="wd-white-title">The Cable News Network</p>
-        <img src="verify.jpg" width="20" height="20" class="wd-verify-down">
-        <p class="wd-time-word"> · 3 days ago</p>
-      </div>
-      <div class="wd-flex-container">
-        <p class="wd-main-title">Team USA snowboarding legend Shaun White crashes out on final Olympic run</p>
-      </div>
-    </div>
-    <div class="wd-right-item"></div>
-    <div class="wd-right-element-image wd-right-16" >
-      <img src="Olympic.jpg" class="wd-right-image">
-    </div>
-  </div>
-</div>
-
-<div class="wd-fixed-borders">
-  <div class = "wd-margin-left-16 wd-container ">
-    <div class="wd-left-item">
-      <div class = "wd-flex-container">
-        <p class="wd-type-d-name"> COVID-19 · Live</p>
-      </div>
-      <div class="wd-flex-container">
-        <p class="wd-main-title">Boston announces deal with teachers on COVID-19 vaccination policy</p>
-      </div>
-    </div>
-    <div class="wd-right-item"></div>
-    <div class="wd-right-element-image wd-right-16" >
-      <img src="covid.jpg" class="wd-right-image">
-    </div>
-  </div>
-</div>
-
-
-<div class="wd-fixed-borders">
-  <div class = "wd-margin-left-16 wd-container ">
-    <div class="wd-left-item">
-      <div class = "wd-flex-container">
-        <p class="wd-type-d-name"> Space · 13 days ago</p>
-      </div>
-      <div class="wd-flex-container">
-        <p class="wd-main-title">SpaceX's Starship will reach orbit this year on road to Mars, Elon Musk says</p>
-      </div>
-    </div>
-    <div class="wd-right-item"></div>
-    <div class="wd-right-element-image wd-right-16" >
-      <img src="space.jpg" class="wd-right-image">
-    </div>
-  </div>
-</div>
 </body>
 </html>
