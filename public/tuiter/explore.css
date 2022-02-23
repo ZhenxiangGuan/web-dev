@@ -254,3 +254,28 @@ body{
 .wd-no-wrap{
   white-space: nowrap;
 }
+
+.wd-image-relative{
+  position: relative;
+}
+
+.wd-text-absolute {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  color: white;
+  font-size: 200%;
+}
+
+.wd-center-position {
+  position: center;
+  padding: 0;
+}
+
+.wd-margin-bot-0{
+  margin: 0px;
+}
+
+.wd-margin-top-0 {
+  margin-top:0px;
+}
