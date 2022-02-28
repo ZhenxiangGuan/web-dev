@@ -2,9 +2,8 @@ import PostSummaryList from "../PostSummaryList/PostSummaryItem.js";
 import psi from "../PostSummaryList/posts.js";
 
 const ExploreComponent = () => {
-  return(`
-            <div class="row mb-3">
-                               <div class="col-11">
+  return(`<div class="row mb-3">
+          <div class="col-11">
           <div class="wd-box rounded-pill">
           <div class="form-group ">
 
@@ -47,8 +46,8 @@ const ExploreComponent = () => {
       </div>
       
             <ul class="list-group">
-           ${psi.map(item => {
-             return PostSummaryList(item);
+           ${psi.map(exploreItem => {
+    return PostSummaryList(exploreItem);
   }).join('')}
            </ul>
     `);

@@ -1,4 +1,6 @@
-
+body {
+  background:black;
+}
 
 .wd-fg-color-highlight{
   color: rgb(29,161,242);
@@ -212,6 +214,7 @@
   padding-top: 2px;
   border-color: lightgray;
   border-width: 1px;
+  background-color:white;
   border-style: solid;
 }
 
@@ -231,8 +234,8 @@
 .wd-width-new {
   width: 45px;
   height: 45px;
-  padding: 0;
   border-radius: 50%;
+
 }
 
 .wd-more-position{
@@ -255,7 +258,7 @@
   position: absolute;
   bottom: 8px;
   left: 8px;
-  color: white;
+  color: black;
   font-size: 200%;
 }
 
@@ -281,12 +284,12 @@
 }
 
 .wd-circle-black {
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
   width: 15px;
   height:15px;
   padding-left: 1px;
-  color: white;
+  color: black;
 }
 
 .wd-margin-left-right{

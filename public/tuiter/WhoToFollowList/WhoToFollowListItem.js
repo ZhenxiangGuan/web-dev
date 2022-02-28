@@ -1,14 +1,14 @@
-const WhoToFollowListItem = (who) => {
+const WhoToFollowListItem = (someone) => {
   return (`        
         <li  class="list-group-item" >
           <div class="row align-items-center">
             <div class="col-xxl-2 col-xl-2 col-md-3">
-              <img src="${who.avatarIcon}" alt="avatar" class=" wd-width-new">
+              <img src="${someone.avatarIcon}" class=" wd-width-new " ">
             </div>
 
             <div class="col-xxl-7 col-xl-6 col-md-5" style="padding-left: 2px">
-              <b class="wd-font-14 wd-white-space">${who.userName} </b><i class="fa-solid fa-circle-check"></i><br/>
-              <p class="wd-lightgray-13">@${who.handle}</p>
+              <b class="wd-font-14 wd-white-space">${someone.userName} </b><i class="fa-solid fa-circle-check"></i><br/>
+              <p class="wd-lightgray-13">@${someone.handle}</p>
             </div>
 
             <div class="col-xxl-3 col-xl-4 col-md-4">
