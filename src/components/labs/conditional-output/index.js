@@ -6,8 +6,8 @@ import ConditionalOutputInline from "./conditional-outputInline";
 const ConditionalOutput = () => {
   return(
       <>
-        <conditional-outputIfElse/>
-        <conditional-outputInline/>
+        <ConditionalOutputIfElse/>
+        <ConditionalOutputInline/>
       </>
   )
 };

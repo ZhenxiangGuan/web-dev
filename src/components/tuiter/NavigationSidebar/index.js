@@ -10,81 +10,91 @@ const NavigationSidebar = (    {
   return(
 <>
             <div className="list-group">
-               <a className="list-group-item" href="/">
+               <a className={`list-group-item
+        ${active === 'twitter' ? 'active' : ''}`} href="/">
                     <i className="fab fa-twitter"></i></a>
 
+              <a href="#" className={`list-group-item
+        ${active === 'home' ? 'active' : ''}`} >
+                <div className="d-xl-block d-none">
+                  <i className="fas fa-home"></i> Home
+                </div>
+                <div className="d-xl-none">
+                  <i className="fas fa-home"></i>
+                </div>
+              </a>
 
-            <a href="#" className="list-group-item" >
+
+
+        <a href="#" className={`list-group-item
+        ${active === 'explore' ? 'active' : ''}`} >
           <div className="d-xl-block d-none">
-          <i className=" fa-solid fa-house-chimney"></i> Home
+            <i className="fas fa-hashtag"></i> Explore
           </div>
           <div className="d-xl-none">
-            <i className=" fa-solid fa-house-chimney"></i>
+            <i className=" fas fa-hashtag"></i>
           </div>
         </a>
 
-        <a href="#" className="list-group-item active" >
+        <a href="#" className={`list-group-item
+        ${active === 'notifications' ? 'active' : ''}`} >
+
           <div className="d-xl-block d-none">
-            <i className="fa-solid fa-hashtag"></i> Explore
+            <i className="fas fa-bell"></i> Notifications
           </div>
           <div className="d-xl-none">
-            <i className=" fa-solid fa-hashtag"></i>
+            <i className="fas fa-bell"></i>
           </div>
         </a>
 
-        <a href="#" className="list-group-item" >
-
-          <div className="d-xl-block d-none">
-            <i className="fa-solid fa-bell"></i> Notifications
-          </div>
-          <div className="d-xl-none">
-            <i className="fa-solid fa-bell"></i>
-          </div>
-        </a>
-
-        <a href="#" className="list-group-item" >
+        <a href="#" className={`list-group-item
+        ${active === 'messages' ? 'active' : ''}`} >
 
 
           <div className="d-xl-block d-none">
-            <i className="fa-solid fa-envelope"></i> Messages
+            <i className="fas fa-envelope"></i> Messages
           </div>
           <div className="d-xl-none">
-            <i className="fa-solid fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </div>
         </a>
 
-        <a href="#" className="list-group-item" >
+        <a href="#" className={`list-group-item
+        ${active === 'bookmarks' ? 'active' : ''}`} >
 
           <div className="d-xl-block d-none">
-            <i className="fa-solid fa-bookmark"></i> Bookmarks
+            <i className="fas fa-bookmark"></i> Bookmarks
           </div>
           <div className="d-xl-none">
-            <i className="fa-solid fa-bookmark"></i>
+            <i className="fas fa-bookmark"></i>
           </div>
         </a>
 
-        <a href="#" className="list-group-item" >
+        <a href="#" className={`list-group-item
+        ${active === 'lists' ? 'active' : ''}`} >
 
           <div className="d-xl-block d-none">
-            <i className="fa-solid fa-list"></i> Lists
+            <i className="fas fa-list"></i> Lists
           </div>
           <div className="d-xl-none">
-            <i className="fa-solid fa-list"></i>
+            <i className="fas fa-list"></i>
           </div>
         </a>
 
-        <a href="#" className="list-group-item" >
+        <a href="#" className={`list-group-item
+        ${active === 'profile' ? 'active' : ''}`} >
 
 
           <div className="d-xl-block d-none">
-            <i className="fa-solid fa-user"></i> Profile
+            <i className="fas fa-user"></i> Profile
           </div>
           <div className="d-xl-none">
-            <i className="fa-solid fa-user"></i>
+            <i className="fas fa-user"></i>
           </div>
         </a>
 
-        <a href="#" className="list-group-item" >
+        <a href="#" className={`list-group-item
+        ${active === 'more' ? 'active' : ''}`} >
 
 
           <div className="d-xl-block d-none ">
