@@ -1,4 +1,3 @@
-import exploreItems from "./posts.json";
 import React from "react";
 
 function isTopic(t) {
@@ -52,7 +51,7 @@ const PostSummaryItem = ( {
                 {isTweets(p)}
             </div>
             <div className="col-md-2 col-sm-4 text-center">
-              <img src={p.image} className="wd-pp-style" />
+              <img src={p.image} className="wd-pp-style" alt="pp"/>
             </div>
           </div>
         </li>

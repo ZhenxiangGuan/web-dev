@@ -13,7 +13,7 @@ const WhoToFollowListItem = (
         <li  className="list-group-item" >
           <div className="row align-items-center">
             <div className="col-xxl-2 col-xl-2 col-md-3">
-              <img src={someone.avatarIcon} width="48"  className="rounded-circle float-start" />
+              <img src={someone.avatarIcon} width="48"  className="rounded-circle float-start"  alt="avatar"/>
             </div>
 
             <div className="col-xxl-7 col-xl-6 col-md-5" style={{paddingLeft: 2+'em'}}>

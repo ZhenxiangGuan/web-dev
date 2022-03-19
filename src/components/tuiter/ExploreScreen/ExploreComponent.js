@@ -44,7 +44,7 @@ const ExploreComponent = () => {
            </ul>
 
   <div className="mt-3 align-content-center wd-image-relative">
-        <img src="/tuiter/nasa.jpg"  width="100%"/>
+        <img src="/tuiter/nasa.jpg"  width="100%" alt="nasa"/>
         <div className="wd-text-absolute"> <b>SpaceX's Starship</b></div>
       </div>
 
