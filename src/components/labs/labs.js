@@ -9,18 +9,19 @@ import TodoList from "./todo/TodoList";
 const Labs = () => {
   return(
       <>
-        <h1>Labs</h1>
-        <TodoList/>
-        <TodoItem/>
-        <ConditionalOutput/>
-        <Styles/>
-        <Classes/>
         <Link to="/hello">
           Hello
         </Link> |
         <Link to="/tuiter">
           Tuiter
         </Link>
+        <h1>Labs</h1>
+        <TodoList/>
+        <TodoItem/>
+        <ConditionalOutput/>
+        <Styles/>
+        <Classes/>
+
       </>
 
   )
