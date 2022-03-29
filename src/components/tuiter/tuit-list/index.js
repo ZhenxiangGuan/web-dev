@@ -1,14 +1,13 @@
 import React from "react";
 import TuitListItem from "./tuit-list-item";
-import tuits from "../data/tuits"
 import {useSelector} from "react-redux";
 
 
 const TuitList = () => {
 
 
-  // const tuits = useSelector(
-  //     state => state.tuits);
+  const tuits = useSelector(
+      state => state.tuits);
 
 
   return (

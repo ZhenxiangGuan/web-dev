@@ -1,8 +1,18 @@
 import React from "react";
 import "./tuitlist.css";
+import {useDispatch} from "react-redux";
+ import TuitStats from "./tuit-stats";
 
 const TuitListItem = ({tuit}) => {
+  const dispatch = useDispatch();
+  const deleteTuit = (tuit) => {
+    dispatch({type: 'delete-tuit', tuit})
+  };
+
+
+
   return (
+
       <li className="list-group-item " >
         <table>
           <tr>
@@ -14,42 +24,12 @@ const TuitListItem = ({tuit}) => {
           <td className= "wd-width-100  align-top wd-padding-left-10">
             <b>{tuit.postedBy.username}</b>
             <b className="wd-padding-left-5 text-secondary">@{tuit.handle}</b>
-            <i className="fa-solid fa-x wd-white-icon fa-pull-right"/>
+            <i onClick={() =>
+                deleteTuit(tuit)}
+               className="fas fa-remove fa-2x
+                  fa-pull-right"/>
             <div>{tuit.tuit}</div>
-
-            <div className="wd-flex-container mt-2 align-items-center">
-              <div className="wd-width-4 wd-flex-container  ">
-                <a href="#">
-                  <i className="far fa-comment wd-white-icon">
-                  </i>
-                </a>
-                <div className="wd-next-icon ">{tuit.stats.comments}</div>
-              </div>
-
-              <div className="wd-width-4 wd-flex-container">
-                <a href="#">
-                  <i className="fas fa-retweet wd-white-icon"/>
-              </a>
-              <div className="wd-next-icon">{tuit.stats.retuits}</div>
-            </div>
-
-            <div className="wd-width-4 wd-flex-container">
-              <a href="#">
-                <i className="fas fa-heart wd-white-icon"/>
-
-            </a>
-            <div className="wd-next-icon">{tuit.stats.likes}</div>
-          </div>
-
-            <div className="wd-width-4 wd-flex-container">
-              <a href="#">
-                <i className="fa-solid fa-up-right-from-square wd-white-icon"/>
-
-            </a>
-          </div>
-
-            </div>
-
+            <TuitStats tuit={tuit}/>
 
           </td>
 

@@ -1,0 +1,30 @@
+.wd-avatar-45{
+  width: 35px;
+  height: 35px;
+}
+
+.wd-width-max{
+  width:100%;
+  padding-left: 10px;
+}
+
+.wd-margin-left-4 {
+  margin-left: 15px;
+}
+
+.wd-icon-color {
+  color: #2a9fd6;
+}
+
+
+.wd-text-area{
+  height: 80px;
+  color:white;
+  background-color: black;
+  width: 100%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+
+}
+

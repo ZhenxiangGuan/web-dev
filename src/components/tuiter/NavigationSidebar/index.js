@@ -1,24 +1,29 @@
 import React from "react";
+import {
+  useLocation
+} from "react-router-dom";
 import '../../../vendors/bootstrap/css/bootstrap.min.css';
 import '../../../vendors/bootstrap/bootstrap.min.css';
 import '../../../vendors/fontawesome/css/all.min.css';
 import {Link} from "react-router-dom";
 
-const NavigationSidebar = (    {
-      active = 'explore'
-    }
+
+const NavigationSidebar = (
 ) => {
+  const location = useLocation().pathname.split("/")
+  const newLocation = location.filter(element => element != "")
+  const active = newLocation[newLocation.length-1];
   return(
 <>
             <div className="list-group">
 
-              <Link className= {`list-group-item
-        ${active === 'twitter' ? 'active' : ''}`} to="/a6/">
+              <Link className= "list-group-item"
+         to="/a6/">
                 <i className="fab fa-twitter"></i></Link>
 
 
               <Link className= {`list-group-item
-        ${active === 'home' ? 'active' : ''}`} to="/home">
+        ${active === 'tuiter' ? 'active' : ''}`} to="/tuiter">
                 <div className="d-xl-block d-none">
                   <i className="fas fa-home"></i> Home
                 </div>
@@ -27,7 +32,7 @@ const NavigationSidebar = (    {
                 </div></Link>
 
               <Link className= {`list-group-item
-        ${active === 'explore' ? 'active' : ''}`} to="/tuiter">
+        ${active === 'explore' ? 'active' : ''}`} to="/tuiter/explore">
                 <div className="d-xl-block d-none">
                   <i className="fas fa-hashtag"></i> Explore
                 </div>
@@ -37,7 +42,7 @@ const NavigationSidebar = (    {
 
 
               <Link className= {`list-group-item
-        ${active === 'notifications' ? 'active' : ''}`} to="/notifications">
+        ${active === 'notifications' ? 'active' : ''}`} to="/tuiter/notifications">
                 <div className="d-xl-block d-none">
                   <i className="fas fa-bell"></i> Notifications
                 </div>
