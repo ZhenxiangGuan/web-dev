@@ -7,7 +7,7 @@ const NotificationScreen = () => {
 
 
   return (
-      <h2>Notification</h2>
+      <h2>Note</h2>
 
 
   )
