@@ -9,7 +9,7 @@ const TuitStats = ({tuit}) => {
   return (
       <div className="wd-flex-container mt-2 align-items-center">
         <div className="wd-width-4 wd-flex-container  ">
-          <a href="#">
+          <a href="comments.html">
             <i className="far fa-comment wd-white-icon">
             </i>
           </a>
@@ -17,7 +17,7 @@ const TuitStats = ({tuit}) => {
         </div>
 
         <div className="wd-width-4 wd-flex-container">
-          <a href="#">
+          <a href="retuit.html">
             <i className="fas fa-retweet wd-white-icon"/>
           </a>
           <div className="wd-next-icon">{tuit.stats.retuits}</div>
@@ -36,7 +36,7 @@ const TuitStats = ({tuit}) => {
         </div>
 
         <div className="wd-width-4 wd-flex-container">
-          <a href="#">
+          <a href="someplace.html">
             <i className="fa-solid fa-up-right-from-square wd-white-icon"/>
 
           </a>

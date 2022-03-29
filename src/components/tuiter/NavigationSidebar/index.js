@@ -4,14 +4,14 @@ import {
 } from "react-router-dom";
 import '../../../vendors/bootstrap/css/bootstrap.min.css';
 import '../../../vendors/bootstrap/bootstrap.min.css';
-import '../../../vendors/fontawesome/css/all.min.css';
+import '../../../vendors/fontawesome/css/all.css';
 import {Link} from "react-router-dom";
 
 
 const NavigationSidebar = (
 ) => {
   const location = useLocation().pathname.split("/")
-  const newLocation = location.filter(element => element != "")
+  const newLocation = location.filter(element => element !== "")
   const active = newLocation[newLocation.length-1];
   return(
 <>

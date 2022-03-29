@@ -6,14 +6,13 @@ const WhoToFollowList = (
 
 ) => {
   const who = useSelector((state) => state.who);
-  console.log(who)
   return (
       <ul className="list-group">
         <li className="list-group-item">
           <b>Who To Follow</b>
         </li>
         {who.map(who => {
-          return(<WhoToFollowListItem someone={who}/>
+          return(<WhoToFollowListItem key={who.handle} someone={who}/>
           );
         })}
 

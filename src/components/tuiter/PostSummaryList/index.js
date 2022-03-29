@@ -9,9 +9,9 @@ const PostSummaryList = (
   return (
       <ul className="list-group">
         {
-          posts.map(post => {
+          posts.map((ndx, post) => {
             return(
-                <PostSummaryItem p={post}/>
+                <PostSummaryItem key={ndx} p={post}/>
             );
           })
         }
