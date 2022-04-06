@@ -1,7 +1,25 @@
-import tuits from "../data/tuits.json";
+import {
+  CREATE_TUIT,
+  DELETE_TUIT,
+  FIND_ALL_TUITS}
+  from "../../../actions/tuits-actions";
 
-const tuitsReducer = (state = tuits, action) => {
+const tuitsReducer = (state = [], action) => {
   switch (action.type) {
+
+    case CREATE_TUIT:
+      return [
+        ...state,
+        action.newTuit
+      ];
+
+    case DELETE_TUIT:
+      return state.filter(
+          tuit => tuit._id !== action.tuit._id);
+
+
+    case FIND_ALL_TUITS:
+      return action.tuits;
 
     case 'like-tuit':
       return state.map(tuit => {
@@ -44,8 +62,10 @@ const tuitsReducer = (state = tuits, action) => {
         newTuit,
         ...state,
       ];
+
+
     default:
-      return tuits
+      return state;
   }
 
 }
