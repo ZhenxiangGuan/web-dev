@@ -22,6 +22,11 @@ export const findAllTuits = async (dispatch) => {
 }
 
 export const updateTuit = async (dispatch, tuit) => {
+  const status = await service.updateTuit(tuit);
+  dispatch({
+    type: UPDATE_TUIT,
+    tuit
+  });
 
 }
 

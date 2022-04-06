@@ -3,13 +3,12 @@ import "./tuitlist.css";
 import { useDispatch } from "react-redux";
 import TuitStats from "./tuit-stats";
 
+import {
+  deleteTuit}
+  from "../../../actions/tuits-actions";
+
 const TuitListItem = ({ tuit }) => {
   const dispatch = useDispatch();
-  const deleteTuit = (tuit) => {
-    dispatch({ type: 'delete-tuit', tuit })
-  };
-
-
 
   return (
 
@@ -19,10 +18,11 @@ const TuitListItem = ({ tuit }) => {
           <img className="rounded-circle wd-avatar-small" src={tuit['logo-image']} alt="avatar" />
         </div>
         <div className="col p-0">
-          <b>{tuit.postedBy.username}</b>
+          <b>{tuit.username}</b>
           <b className="wd-padding-left-5 text-secondary">@{tuit.handle}</b>
           <i onClick={() =>
-            deleteTuit(tuit)}
+              deleteTuit(
+                  dispatch, tuit)}
             className="fas fa-remove fa-2x
                   fa-pull-right me-2"/>
           <div>{tuit.tuit}</div>
