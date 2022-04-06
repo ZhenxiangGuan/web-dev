@@ -70,7 +70,7 @@ const TuitStats = ({tuit}) => {
               !tuit.disliked &&
               <i className="far fa-thumbs-down me-1"/>
             }
-            { tuit.dislikes}
+            {tuit.dislikes}
           </span>
         </div>
 
