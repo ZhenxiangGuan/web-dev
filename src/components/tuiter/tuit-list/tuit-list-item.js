@@ -15,10 +15,10 @@ const TuitListItem = ({ tuit }) => {
     <li className="list-group-item " >
       <div className="row">
         <div className="col-1 p-0 ms-2 me-3">
-          <img className="rounded-circle wd-avatar-small" src={tuit['logo-image']} alt="avatar" />
+          <img className="rounded-circle wd-avatar-small" src={tuit['logo_image']} alt="avatar" />
         </div>
         <div className="col p-0">
-          <b>{tuit.username}</b>
+          <b>{tuit.postedBy && tuit.postedBy.username}</b>
           <b className="wd-padding-left-5 text-secondary">@{tuit.handle}</b>
           <i onClick={() =>
               deleteTuit(
