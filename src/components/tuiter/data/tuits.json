@@ -14,7 +14,7 @@
     "attachments": {
       "video": "unKvMC3Y1kI"
     },
-    "logo-image": "/tuiter/rjsb.png",
+    "logo_image": "/tuiter/rjsb.png",
     "avatar-image": "/tuiter/rjsb.png",
     "stats": {
       "comments": 123,
@@ -37,7 +37,7 @@
       "image": "../images/starship.png"
     },
     "time": "last month",
-    "logo-image": "/tuiter/spx.jpg",
+    "logo_image": "/tuiter/spx.jpg",
     "avatar-image": "/tuiter/spx.jpg",
     "tuits": "120K",
     "stats": {
@@ -59,7 +59,7 @@
     "time": "1 day",
     "title": "JavaScript is programming language that can run on browsers as well as desktops",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "logo-image": "/tuiter/jsi.jpg",
+    "logo_image": "/tuiter/jsi.jpg",
     "avatar-image": "/tuiter/jsi.jpg",
     "tuits": "123K",
     "stats": {
@@ -80,7 +80,7 @@
     "title": "jQuery",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last week",
-    "logo-image": "/tuiter/jq.jpg",
+    "logo_image": "/tuiter/jq.jpg",
     "avatar-image": "/tuiter/jq.jpg",
     "tuits": "122K",
     "stats": {
@@ -101,7 +101,7 @@
     "title": "",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last month",
-    "logo-image": "/tuiter/js.jpg",
+    "logo_image": "/tuiter/js.jpg",
     "avatar-image": "/tuiter/js.jpg",
     "tuits": "120K",
     "stats": {
